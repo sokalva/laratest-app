@@ -16,5 +16,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-!Brief.txt
+Brief.txt
 /!Task
+lesson.txt
