@@ -26,24 +26,10 @@
             <a class="d-flex justify-content-end" href="https://github.com/sokalva"><i class="bi bi-github" style="font-size: 2rem; color: black"></i></a>
         </div>
     </nav>
-    <div class="hero" style="background-image: url(/img/lorenzo-herrera.jpg)">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="hero__content text-center">
-                        <div class="hero__content-tag">
-                            <a href="#">Разработчик PHP - Laravel</a>
-                        </div>
-                        <h2><a href="#">Тестовое задание</a></h2>
+    @yield('hero')
+    @yield('content')
+    @yield('vue')
 
-                        <div class="hero__content-tag">
-                            <a href="#">Udemy.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 </div>
